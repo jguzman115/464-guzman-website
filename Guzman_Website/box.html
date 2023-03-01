@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- boxmodel.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Box Model</title>
+    <style>
+        /* boxmodel.css for boxmodel.html */
+
+        body {
+        padding: 0;
+        margin: 0;
+        }
+
+        div#outerBox {
+        border: 10px solid black; /* Shorthand for styling a border */
+        background-color: yellow;
+        /* margin: 10px; */
+        /* padding: 10px; */
+    }
+
+        div#middleBox {
+        padding: 20px;
+        border: 20px dashed blue;
+        margin: 20px;
+        background-color: maroon;
+        }
+
+        div#innerBox { 
+            background-color: #fff; 
+            /* padding: 10px; */
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id='outerBox'>
+      <div id='middleBox'>
+        <div id='innerBox'>
+          Here is my own flexbox that I edited from the one provided to us. I really like how it looks and plan to use it in my final project
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
