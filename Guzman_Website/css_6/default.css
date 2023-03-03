@@ -9,11 +9,12 @@ main {
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-.Narrow { width: 620px; }
+.Narrow { width: 720px; }
 
 .BMI { width: 650px; }
 
-.Feedback { width: 450px; }
+.Feedback { width: 450px;
+          }
 
 .FormTest { width: 660px; }
 
