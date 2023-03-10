@@ -1,23 +1,38 @@
-
 <!--#include virtual="common/document_head.html"-->
 <!-- index.html for ch03/nature3 -->
+
 <body>
   <tr>
     <td><a href="second.html">Second Page</a></td>
   </tr>
   <tr>
-    <td><a href="form.html">Form</a></td>
+    <td><a href="pages/form.html">Form</a></td>
   </tr>
   <tr>
-    <td><a href="box.html">Flex Box</a></td>
+    <td><a href="pages/box.html">Flex Box</a></td>
   </tr>
   <tr>
-    <td><a href="feedback.html">Feedback Form</a></td>
+    <td><a href="pages/feedback.html">Feedback Form</a></td>
   </tr>
+  <tr>
+    <td><a href="index.php">New Menu (Work in Progress)</a></td>
+  </tr>
+  <button type="button" onclick="myFunction()">Change Color</button>
+
+  <script>
+    function myFunction() {
+      if (document.body.style.backgroundColor != "purple"){
+        document.body.style.backgroundColor = "purple";
+      }else{
+        document.body.style.backgroundColor = "yellow";
+      }
+    }
+  </script>
   <table>
     <!--#include virtual="second.html"-->
     <tr>
       <td colspan="3">
+
         <head>
           <meta charset="utf-8">
           <title>Juan's Website</title>
@@ -34,12 +49,13 @@
   </table>
   <p>I really like to listen to music
     <br>
-    This is a list of my favirote bands/artists:</p>
+    This is a list of my favirote bands/artists:
+  </p>
   <ul>
     <li>Pink Floyd</li>
     <li>The Beatles</li>
     <li>Post Malone</li>
   </ul>
-  
 </body>
+
 </html>
