@@ -64,20 +64,20 @@ two groups of links: main menu, and dropdown menus   */
   display: block;
   height: 25px;
   line-height: 25px;
-  background-color: #728004;
+  background-color: #2d0480;
   color: #FFF;
   text-decoration: none;
 }
 
 .Links li a:hover {
-  background-color: #fff700;
+  background-color: #3c06a7;
   color: #FFF;
 }
 
 /* for the dropdown menu options */
 .Links div {
   position: absolute;
-  background-color: #728004;
+  background-color: #2d0480;
   visibility: hidden;
 }
 
@@ -87,7 +87,7 @@ two groups of links: main menu, and dropdown menus   */
   margin-top: 2px;
   padding-left: 3px;
   background-color: #C5DCC9;
-  color: #6d8004;
+  color: #2d0480;
   text-align: left;
 }
 

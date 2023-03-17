@@ -4,13 +4,22 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css_6/default.css">
+  <link rel="stylesheet" href="css/feedback.css">
   <script src="scripts/feedbackFormValidate.js"></script>
-  <title>Juan's Website Feedback Form</title>
+  <title>Feedback Form</title>
 </head>
 
 <body>
   <main class="Feedback">
+    <tr>
+      <input type="submit" value="Home" onClick="myFunction()"/> 
+  
+    <script>
+      function myFunction() {
+        window.location.href="../../index.php";  
+      }
+    </script>
+    </tr>
     <h4>Feedback Form ... Let Us Know What You Think</h4>
     <form id="contactForm" onsubmit="feedbackFormValidate()">
       <table>
@@ -49,9 +58,6 @@
       </table>
     </form>
   </main>
-  <tr>
-    <td><a href="../index.html">Home</a></td>
-  </tr>
 </body>
 
 </html>
