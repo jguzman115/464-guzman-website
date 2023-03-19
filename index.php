@@ -19,7 +19,7 @@
             <p>Software Engineering</p>
           </td>
           <td colspan="2">
-            <img src="images/spiderman.jpg" alt="Spiderman" width="256" height="256">
+            <img src="images/unl.jpg" alt="UNL" width="256" height="256">
           </td>
         </tr>
       </table>
