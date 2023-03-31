@@ -3,11 +3,23 @@
   <ul class="Links">
     <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
     <li>
-      <span onmouseover="show('m3')">Services</span> 
+      <span onmouseover="show('m3')">Services</span>
       <div id="m3" onmouseover="show('m3')">
         <a href="pages/feedback.html">Feedback Form</a>
         <a href="pages/form.html">Reach Out Form</a>
         <a href="pages/resume.html">Resume</a>
       </div>
+    <li><a href="pages/music.html" onmouseover="show('m1')">Music</a></li>
+    <li><a onmouseover="show('m1')" onclick="changeColor()">Change Color</a></li>
+    <script>
+      function changeColor() {
+        if (document.body.style.backgroundColor != "#603fa2") {
+          document.body.style.backgroundColor = "#603fa2";
+        } else if (document.body.style.backgroundColor == "#603fa2"){
+          document.body.style.backgroundColor = "#b9b7b7";
+        }
+      }
+    </script>
+
   </ul>
 </nav>

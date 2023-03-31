@@ -23,6 +23,8 @@
           </td>
         </tr>
       </table>
+      
+      </table>
     </main>
   </body>
 </html>

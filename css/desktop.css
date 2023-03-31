@@ -19,7 +19,7 @@ font properties set here will be inherited throughout   */
 body {
   width: 900px;
   margin: 20px auto 0 auto;
-  border: 8px solid black;
+  border: 8px solid rgb(0, 0, 0);
   border-radius: 25px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 1em;

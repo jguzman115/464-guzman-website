@@ -1,13 +1,18 @@
+body {
+  background-color: rgb(189, 186, 186);
+}
 main {
-  background-color: #3c06a7;
+  background-color: #603fa2;
   padding: 10px;
   border: 2px solid black;
   border-radius: 25px;
   box-shadow: 5px 5px #000;
   font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #EEE;
 }
 
-.BMI { width: 650px; }
+.BMI { width: 650px;
+}
 
 .Feedback { width: 450px; }
 
